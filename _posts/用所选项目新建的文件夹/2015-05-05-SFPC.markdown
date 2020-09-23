@@ -1,0 +1,14 @@
+---
+layout: post
+title: School for Poetic Computation
+date: 2015-05-05 13:32:20 +0300
+image: '/images/posts/sfpc.jpg'
+permalink: /sfpc/
+tags: teaching
+---
+
+
+I worked with SFPC for a couple years as both a teacher and on their steering committee. We thought it was really important that there was a theory component to the work at SFPC, that it wasn't just focused on making flashy tech projects. 
+
+The syllabus for the course is reproduced [here on github](https://github.com/allisonburtch/Critical-Theory-of-Technology/blob/master/syllabus.md)) and the project that my students made is [here](https://github.com/allisonburtch/Critical-Theory-of-Technology/blob/master/zine.pdf). 
+

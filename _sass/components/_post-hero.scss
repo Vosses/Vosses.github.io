@@ -27,11 +27,12 @@
     }
   }
 
-  &__tags {
+  &__tags, &__categories {
     color: $color-gray;
     font-size: $font-size-tiny;
     text-transform: capitalize;
     letter-spacing: $global-letter-spacing;
+    padding: 1em 0em;
 
     a {
       color: $color-gray;
@@ -62,6 +63,7 @@
     font-size: $font-size-tiny;
     color: $color-gray;
     letter-spacing: $global-letter-spacing;
+    padding: 1em 0em;
   }
 
   &__author a {
@@ -75,7 +77,7 @@
   &__image {
     margin: 0 auto;
     border-radius: $global-border-radius;
-    box-shadow: $base-spacing-unit $base-spacing-unit 0 $bg-gray;
+    // box-shadow: $base-spacing-unit $base-spacing-unit 0 $bg-gray;
 
     @include mq($from: desktop) {
       max-height: 80vh;

@@ -5,29 +5,29 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-# theme_version: 1.0.1
+theme_version: 1.0.1
 
 # Site settings
-title:              Vosses
-logo:               # Logo image URL
-description:        Art archive from 2010-2016
-baseurl:            '/' # The subpath of your site, e.g. /blog
-url:                'https://vosses.github.io' # The base hostname & protocol for your site
-twitter:            
-# facebook:           https://www.facebook.com/aspirethemes
-instagram:          
+title: Think, Write; Rethink, Rewrite.
+email: blog@gidi.io
+description: >- # this means to ignore newlines until "baseurl:"
+  Gidi Morris is an experienced web developer who has worn many different hats throughout their career. 
+  He has a wide range of experience ranging from Front End to Back End and Infrastructure development.
+author:
+  Gidi Meir Morris
+baseurl:            '' # The subpath of your site, e.g. /blog
+url:                'https://www.gidi.io/' # The base hostname & protocol for your site
+twitter:            https://twitter.com/chekofif
 
 markdown:  kramdown
-remote_theme: sinai 
 permalink: pretty
 paginate:  20
 sass:
   style: compressed
 
-plugins:
+gems:
   - jekyll-paginate
   - jekyll/tagging
-  # - github-pages
 
 include:
   - _pages

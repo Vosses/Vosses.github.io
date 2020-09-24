@@ -4,6 +4,8 @@ layout: default
 
 {% include base_path %}
 
+{% include post-pagination.html %}
+
 {% if page.image %}
   <meta itemprop='og:image' content='{{ base_path }}{{ page.image }}'>
 {% endif %}
@@ -28,7 +30,7 @@ layout: default
 
         <hr>
 
-        {% include disqus.html %}
+        <!-- {% include disqus.html %} -->
 
       </article>
 

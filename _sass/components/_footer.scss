@@ -52,12 +52,13 @@
   margin-bottom: double($base-spacing-unit);
 
   li {
-    display: block;
+    display: inline-block;
     margin: 0;
     letter-spacing: 0;
     text-transform: capitalize;
 
     &:not(:last-child) a {
+      padding: 0.5em;
       margin-bottom: half($base-spacing-unit);
       padding-bottom: half($base-spacing-unit);
     }
